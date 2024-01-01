@@ -26,5 +26,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 # opencv
-INCLUDEPATH += 'pkg-config --cflags opencv4'
+INCLUDEPATH += `pkg-config --cflags opencv4`
 LIBS += `pkg-config --libs opencv4`
