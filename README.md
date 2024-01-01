@@ -9,7 +9,7 @@ A simple edge detection example application using the Qt framework and OpenCV li
 ## Features
 - Handles camera tasks in a separate thread.
 - Implements Canny Edge Detection using OpenCV, toggleable per user preference.
-- Utilizes Qt's QTimer for timely frame updates.
+- Utilizes QTimer for frame updates.
 
 ## Demo
 
